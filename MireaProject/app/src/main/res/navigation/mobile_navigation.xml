@@ -1,0 +1,48 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_data">
+
+    <fragment
+        android:id="@+id/nav_data"
+        android:name="ru.mirea.maiorovaa.mireaproject.DataFragment"
+        android:label="menu_data"
+        tools:layout="@layout/fragment_data" />
+
+    <fragment
+        android:id="@+id/nav_webview"
+        android:name="ru.mirea.maiorovaa.mireaproject.WebViewFragment"
+        android:label="menu_webview"
+        tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/nav_sensor"
+        android:name="ru.mirea.maiorovaa.mireaproject.fragment_sensor"
+        android:label="fragment_sensor"
+        tools:layout="@layout/fragment_sensor" />
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.maiorovaa.mireaproject.fragment_camera"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/nav_microphone"
+        android:name="ru.mirea.maiorovaa.mireaproject.fragment_microphone"
+        android:label="fragment_microphone"
+        tools:layout="@layout/fragment_microphone" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="ru.mirea.maiorovaa.mireaproject.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_fileoperations"
+        android:name="ru.mirea.maiorovaa.mireaproject.FileOperationsFragment"
+        android:label="fragment_file_operations"
+        tools:layout="@layout/fragment_file_operations" />
+    <fragment
+        android:id="@+id/nav_networkRecourcesFragment"
+        android:name="ru.mirea.maiorovaa.mireaproject.NetworkRecourcesFragment"
+        android:label="fragment_network_recources"
+        tools:layout="@layout/fragment_network_recources" />
+</navigation>
